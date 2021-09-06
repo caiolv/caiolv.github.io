@@ -9,19 +9,27 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, I\'m ',
+  name: 'Caio Oliveira',
+  subtitle: 'Front-end developer.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Hello! My name is Caio and I love developing intuitive applications. My interest in web development started back when I was 14 and decided to try editing custom Tumblr themes and also creating my own.',
+  paragraphTwo: ``,//`I\'ve worked on ShowCommerce and Mirante Tecnologia developing front-end applications.`,
+  paragraphThree: 'Technologies I\'m passionate about: ',
+  techs: [
+    'react',
+    'react-native',
+    'styled-components',
+    'redux',
+    'node.js',
+    'express.js'
+  ],
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
