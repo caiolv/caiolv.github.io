@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Caio Oliveira | Frontend Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'TEses', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -30,30 +30,39 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'fastfeet.png',
+    title: 'FastFeet',
+    info: 'Fast Feet is a full Stack JS application for managing a deliveries.',
+    info2: 'Techs used: react, redux, styled-components',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/caiolv/fastfeet-web',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'color-game.png',
+    title: 'Color Game',
+    info: 'A fun game where you win by guessing the right color from a RGB color code.',
+    info2: 'Techs used: react, reduxjs-toolkit, styled-components',
+    url: 'https://color-game-v2.netlify.app',
+    repo: 'https://github.com/caiolv/color-game-v2',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'natours.png',
+    title: 'natours',
+    info: 'Booking experience website for adventurous people.',
+    info2: 'Techs used: react, styled-components',
+    url: 'https://caiolv-natours.netlify.app/',
+    repo: 'https://github.com/caiolv/natours',
+  },
+  {
+    id: nanoid(),
+    img: 'trillo.png',
+    title: 'trillo',
+    info: 'Your all-in-one booking app.',
+    info2: 'Techs used: react, styled-components',
+    url: 'https://caiolv-trillo.netlify.app/',
+    repo: 'https://github.com/caiolv/trillo',
   },
 ];
 
@@ -67,25 +76,25 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/caio-oliveira-b1365a124/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/caiolv',
     },
   ],
 };
