@@ -30,6 +30,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'invest-academy.png',
+    title: 'Invest Academy',
+    info: 'Teaching platform for those who want to learn about the financial market..',
+    info2: 'Techs used: react, redux, styled-components',
+    url: 'http://invest.academy/',
+    repo: '',
+  },
+  {
+    id: nanoid(),
     img: 'fastfeet.png',
     title: 'FastFeet',
     info: 'Fast Feet is a full Stack JS application for managing a deliveries.',
@@ -45,24 +54,6 @@ export const projectsData = [
     info2: 'Techs used: react, reduxjs-toolkit, styled-components',
     url: 'https://color-game-v2.netlify.app',
     repo: 'https://github.com/caiolv/color-game-v2',
-  },
-  {
-    id: nanoid(),
-    img: 'natours.png',
-    title: 'natours',
-    info: 'Booking experience website for adventurous people.',
-    info2: 'Techs used: react and sass',
-    url: 'https://caiolv-natours.netlify.app/',
-    repo: 'https://github.com/caiolv/natours',
-  },
-  {
-    id: nanoid(),
-    img: 'trillo.png',
-    title: 'trillo',
-    info: 'Your all-in-one booking app.',
-    info2: 'Techs used: react and sass',
-    url: 'https://caiolv-trillo.netlify.app/',
-    repo: 'https://github.com/caiolv/trillo',
   },
 ];
 
