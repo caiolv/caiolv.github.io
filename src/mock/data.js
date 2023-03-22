@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hello! My name is Caio and I love developing intuitive applications. My interest in web development started back when I was 14 and decided to try editing custom Tumblr themes and also creating my own.',
-  paragraphTwo: ``, // `I\'ve worked on ShowCommerce and Mirante Tecnologia developing front-end applications.`,
+    'Hello! My name is Caio and I love developing intuitive and beautiful applications. My interest in web development started back when I was 14 and decided to try editing custom Tumblr themes and also creating my own.',
+  paragraphTwo: `I believe technology has evolved to help humans product more in a simpler way.`, // `I\'ve worked on ShowCommerce and Mirante Tecnologia developing front-end applications.`,
   paragraphThree: "Technologies I'm passionate about: ",
   techs: ['react', 'react-native', 'styled-components', 'redux', 'node.js', 'express.js'],
   resume: '', // if no resume, the button will not show up
@@ -32,19 +32,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'invest-academy.png',
     title: 'Invest Academy',
-    info: 'Teaching platform for those who want to learn about the financial market..',
+    info: 'Learn platform for those who want to learn about the financial market.',
     info2: 'Techs used: react, redux, styled-components',
     url: 'http://invest.academy/',
     repo: '',
   },
   {
     id: nanoid(),
-    img: 'fastfeet.png',
-    title: 'FastFeet',
-    info: 'Fast Feet is a full Stack JS application for managing a deliveries.',
-    info2: 'Techs used: react, redux, styled-components',
-    url: '',
-    repo: 'https://github.com/caiolv/fastfeet-web',
+    img: 'confianca.png',
+    title: 'Confiança Delivery',
+    info: 'Supermarket e-commerce app for Confiança Supermercados.',
+    info2: 'Techs used: react, redux',
+    url: 'https://www.confianca.com.br/',
+    repo: '',
   },
   {
     id: nanoid(),
